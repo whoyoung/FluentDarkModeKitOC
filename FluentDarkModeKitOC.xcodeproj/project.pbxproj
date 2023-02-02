@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77E71BB0298A8A5F00FC5FC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BAF298A8A5F00FC5FC5 /* AppDelegate.m */; };
+		77E71BB3298A8A5F00FC5FC5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BB2298A8A5F00FC5FC5 /* SceneDelegate.m */; };
+		77E71BB6298A8A5F00FC5FC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BB5298A8A5F00FC5FC5 /* ViewController.m */; };
+		77E71BB9298A8A5F00FC5FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E71BB7298A8A5F00FC5FC5 /* Main.storyboard */; };
+		77E71BBB298A8A6000FC5FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E71BBA298A8A6000FC5FC5 /* Assets.xcassets */; };
+		77E71BBE298A8A6000FC5FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E71BBC298A8A6000FC5FC5 /* LaunchScreen.storyboard */; };
+		77E71BC1298A8A6000FC5FC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BC0298A8A6000FC5FC5 /* main.m */; };
+		77E71C04298A8AB300FC5FC5 /* DMDynamicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BDC298A8AB300FC5FC5 /* DMDynamicImage.m */; };
+		77E71C05298A8AB300FC5FC5 /* UIView+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BDE298A8AB300FC5FC5 /* UIView+DarkModeKit.m */; };
+		77E71C06298A8AB300FC5FC5 /* DMTraitCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BDF298A8AB300FC5FC5 /* DMTraitCollection.m */; };
+		77E71C07298A8AB300FC5FC5 /* UIView+DarkModeKitSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BE5298A8AB300FC5FC5 /* UIView+DarkModeKitSwizzling.m */; };
+		77E71C08298A8AB300FC5FC5 /* UIImage+DarkModeKitSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BE6298A8AB300FC5FC5 /* UIImage+DarkModeKitSwizzling.m */; };
+		77E71C09298A8AB300FC5FC5 /* UIViewController+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BE7298A8AB300FC5FC5 /* UIViewController+DarkModeKit.m */; };
+		77E71C0A298A8AB300FC5FC5 /* DMDynamicColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BE9298A8AB300FC5FC5 /* DMDynamicColor.m */; };
+		77E71C0B298A8AB300FC5FC5 /* UIColor+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BED298A8AB300FC5FC5 /* UIColor+DarkModeKit.m */; };
+		77E71C0C298A8AB300FC5FC5 /* UIImage+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BEE298A8AB300FC5FC5 /* UIImage+DarkModeKit.m */; };
+		77E71C0D298A8AB300FC5FC5 /* DMEnvironmentConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71BF0298A8AB300FC5FC5 /* DMEnvironmentConfiguration.m */; };
+		77E71C10298A8B1D00FC5FC5 /* DarkModeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C0F298A8B1D00FC5FC5 /* DarkModeManager.m */; };
+		77E71C13298A938800FC5FC5 /* UIImageView+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C12298A938800FC5FC5 /* UIImageView+DarkModeKit.m */; };
+		77E71C17298A9D9F00FC5FC5 /* NSObject+DMSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C16298A9D9F00FC5FC5 /* NSObject+DMSwizzling.m */; };
+		77E71C1A298AA2BA00FC5FC5 /* UILabel+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C19298AA2BA00FC5FC5 /* UILabel+DarkModeKit.m */; };
+		77E71C1D298B556400FC5FC5 /* UISlider+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C1C298B556400FC5FC5 /* UISlider+DarkModeKit.m */; };
+		77E71C20298B577700FC5FC5 /* UIProgressView+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C1F298B577700FC5FC5 /* UIProgressView+DarkModeKit.m */; };
+		77E71C23298B580900FC5FC5 /* UIActivityIndicatorView+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C22298B580900FC5FC5 /* UIActivityIndicatorView+DarkModeKit.m */; };
+		77E71C29298B589E00FC5FC5 /* UITabBar+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C28298B589E00FC5FC5 /* UITabBar+DarkModeKit.m */; };
+		77E71C2C298B58B100FC5FC5 /* UIPageControl+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C2B298B58B100FC5FC5 /* UIPageControl+DarkModeKit.m */; };
+		77E71C2F298B58BE00FC5FC5 /* UIButton+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C2E298B58BE00FC5FC5 /* UIButton+DarkModeKit.m */; };
+		77E71C32298B58D000FC5FC5 /* UITextView+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C31298B58D000FC5FC5 /* UITextView+DarkModeKit.m */; };
+		77E71C35298B58E500FC5FC5 /* UITextField+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C34298B58E500FC5FC5 /* UITextField+DarkModeKit.m */; };
+		77E71C38298B58F300FC5FC5 /* UIToolbar+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C37298B58F300FC5FC5 /* UIToolbar+DarkModeKit.m */; };
+		77E71C3B298B590400FC5FC5 /* UINavigationBar+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C3A298B590400FC5FC5 /* UINavigationBar+DarkModeKit.m */; };
+		77E71C3E298B591200FC5FC5 /* UIScrollView+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C3D298B591200FC5FC5 /* UIScrollView+DarkModeKit.m */; };
+		77E71C41298B592100FC5FC5 /* UITableView+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C40298B592100FC5FC5 /* UITableView+DarkModeKit.m */; };
+		77E71C44298B696D00FC5FC5 /* UITabBarItem+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E71C43298B696D00FC5FC5 /* UITabBarItem+DarkModeKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77E71BAB298A8A5F00FC5FC5 /* FluentDarkModeKitOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluentDarkModeKitOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E71BAE298A8A5F00FC5FC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77E71BAF298A8A5F00FC5FC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77E71BB1298A8A5F00FC5FC5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		77E71BB2298A8A5F00FC5FC5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		77E71BB4298A8A5F00FC5FC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77E71BB5298A8A5F00FC5FC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77E71BB8298A8A5F00FC5FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77E71BBA298A8A6000FC5FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77E71BBD298A8A6000FC5FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77E71BBF298A8A6000FC5FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E71BC0298A8A6000FC5FC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77E71BDB298A8AB300FC5FC5 /* DMDynamicColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDynamicColor.h; sourceTree = "<group>"; };
+		77E71BDC298A8AB300FC5FC5 /* DMDynamicImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDynamicImage.m; sourceTree = "<group>"; };
+		77E71BDD298A8AB300FC5FC5 /* FluentDarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluentDarkModeKit.h; sourceTree = "<group>"; };
+		77E71BDE298A8AB300FC5FC5 /* UIView+DarkModeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71BDF298A8AB300FC5FC5 /* DMTraitCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTraitCollection.m; sourceTree = "<group>"; };
+		77E71BE0298A8AB300FC5FC5 /* DMEnvironmentConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMEnvironmentConfiguration.h; sourceTree = "<group>"; };
+		77E71BE1298A8AB300FC5FC5 /* UIImage+DarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71BE3298A8AB300FC5FC5 /* DarkModeCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkModeCore.h; sourceTree = "<group>"; };
+		77E71BE4298A8AB300FC5FC5 /* UIColor+DarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71BE5298A8AB300FC5FC5 /* UIView+DarkModeKitSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DarkModeKitSwizzling.m"; sourceTree = "<group>"; };
+		77E71BE6298A8AB300FC5FC5 /* UIImage+DarkModeKitSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DarkModeKitSwizzling.m"; sourceTree = "<group>"; };
+		77E71BE7298A8AB300FC5FC5 /* UIViewController+DarkModeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71BE8298A8AB300FC5FC5 /* DMDynamicImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDynamicImage.h; sourceTree = "<group>"; };
+		77E71BE9298A8AB300FC5FC5 /* DMDynamicColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDynamicColor.m; sourceTree = "<group>"; };
+		77E71BEA298A8AB300FC5FC5 /* UIView+DarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71BEB298A8AB300FC5FC5 /* DMNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNamespace.h; sourceTree = "<group>"; };
+		77E71BEC298A8AB300FC5FC5 /* UIView+DarkModeKitSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DarkModeKitSwizzling.h"; sourceTree = "<group>"; };
+		77E71BED298A8AB300FC5FC5 /* UIColor+DarkModeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71BEE298A8AB300FC5FC5 /* UIImage+DarkModeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71BEF298A8AB300FC5FC5 /* DMTraitCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTraitCollection.h; sourceTree = "<group>"; };
+		77E71BF0298A8AB300FC5FC5 /* DMEnvironmentConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMEnvironmentConfiguration.m; sourceTree = "<group>"; };
+		77E71BF1298A8AB300FC5FC5 /* UIViewController+DarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71BF2298A8AB300FC5FC5 /* UIImage+DarkModeKitSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DarkModeKitSwizzling.h"; sourceTree = "<group>"; };
+		77E71C0E298A8B1D00FC5FC5 /* DarkModeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkModeManager.h; sourceTree = "<group>"; };
+		77E71C0F298A8B1D00FC5FC5 /* DarkModeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkModeManager.m; sourceTree = "<group>"; };
+		77E71C11298A938800FC5FC5 /* UIImageView+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C12298A938800FC5FC5 /* UIImageView+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C15298A9D9F00FC5FC5 /* NSObject+DMSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DMSwizzling.h"; sourceTree = "<group>"; };
+		77E71C16298A9D9F00FC5FC5 /* NSObject+DMSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DMSwizzling.m"; sourceTree = "<group>"; };
+		77E71C18298AA2BA00FC5FC5 /* UILabel+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C19298AA2BA00FC5FC5 /* UILabel+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C1B298B556400FC5FC5 /* UISlider+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISlider+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C1C298B556400FC5FC5 /* UISlider+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISlider+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C1E298B577700FC5FC5 /* UIProgressView+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C1F298B577700FC5FC5 /* UIProgressView+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C21298B580900FC5FC5 /* UIActivityIndicatorView+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C22298B580900FC5FC5 /* UIActivityIndicatorView+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C27298B589E00FC5FC5 /* UITabBar+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C28298B589E00FC5FC5 /* UITabBar+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C2A298B58B100FC5FC5 /* UIPageControl+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C2B298B58B100FC5FC5 /* UIPageControl+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C2D298B58BE00FC5FC5 /* UIButton+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C2E298B58BE00FC5FC5 /* UIButton+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C30298B58D000FC5FC5 /* UITextView+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C31298B58D000FC5FC5 /* UITextView+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C33298B58E500FC5FC5 /* UITextField+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C34298B58E500FC5FC5 /* UITextField+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C36298B58F300FC5FC5 /* UIToolbar+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C37298B58F300FC5FC5 /* UIToolbar+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C39298B590400FC5FC5 /* UINavigationBar+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C3A298B590400FC5FC5 /* UINavigationBar+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C3C298B591200FC5FC5 /* UIScrollView+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C3D298B591200FC5FC5 /* UIScrollView+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C3F298B592100FC5FC5 /* UITableView+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C40298B592100FC5FC5 /* UITableView+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DarkModeKit.m"; sourceTree = "<group>"; };
+		77E71C42298B696D00FC5FC5 /* UITabBarItem+DarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+DarkModeKit.h"; sourceTree = "<group>"; };
+		77E71C43298B696D00FC5FC5 /* UITabBarItem+DarkModeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+DarkModeKit.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E71BA8298A8A5F00FC5FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77E71BA2298A8A5F00FC5FC5 = {
+			isa = PBXGroup;
+			children = (
+				77E71BAD298A8A5F00FC5FC5 /* FluentDarkModeKitOC */,
+				77E71BAC298A8A5F00FC5FC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77E71BAC298A8A5F00FC5FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E71BAB298A8A5F00FC5FC5 /* FluentDarkModeKitOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E71BAD298A8A5F00FC5FC5 /* FluentDarkModeKitOC */ = {
+			isa = PBXGroup;
+			children = (
+				77E71BAE298A8A5F00FC5FC5 /* AppDelegate.h */,
+				77E71BAF298A8A5F00FC5FC5 /* AppDelegate.m */,
+				77E71BB1298A8A5F00FC5FC5 /* SceneDelegate.h */,
+				77E71BB2298A8A5F00FC5FC5 /* SceneDelegate.m */,
+				77E71BB4298A8A5F00FC5FC5 /* ViewController.h */,
+				77E71BB5298A8A5F00FC5FC5 /* ViewController.m */,
+				77E71BDA298A8AB300FC5FC5 /* DarkModeCore */,
+				77E71BC7298A8AB300FC5FC5 /* FluentDarkModeKit */,
+				77E71BB7298A8A5F00FC5FC5 /* Main.storyboard */,
+				77E71BBA298A8A6000FC5FC5 /* Assets.xcassets */,
+				77E71BBC298A8A6000FC5FC5 /* LaunchScreen.storyboard */,
+				77E71BBF298A8A6000FC5FC5 /* Info.plist */,
+				77E71BC0298A8A6000FC5FC5 /* main.m */,
+			);
+			path = FluentDarkModeKitOC;
+			sourceTree = "<group>";
+		};
+		77E71BC7298A8AB300FC5FC5 /* FluentDarkModeKit */ = {
+			isa = PBXGroup;
+			children = (
+				77E71C0E298A8B1D00FC5FC5 /* DarkModeManager.h */,
+				77E71C0F298A8B1D00FC5FC5 /* DarkModeManager.m */,
+				77E71BC9298A8AB300FC5FC5 /* Extensions */,
+			);
+			path = FluentDarkModeKit;
+			sourceTree = "<group>";
+		};
+		77E71BC9298A8AB300FC5FC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77E71C11298A938800FC5FC5 /* UIImageView+DarkModeKit.h */,
+				77E71C12298A938800FC5FC5 /* UIImageView+DarkModeKit.m */,
+				77E71C18298AA2BA00FC5FC5 /* UILabel+DarkModeKit.h */,
+				77E71C19298AA2BA00FC5FC5 /* UILabel+DarkModeKit.m */,
+				77E71C1B298B556400FC5FC5 /* UISlider+DarkModeKit.h */,
+				77E71C1C298B556400FC5FC5 /* UISlider+DarkModeKit.m */,
+				77E71C1E298B577700FC5FC5 /* UIProgressView+DarkModeKit.h */,
+				77E71C1F298B577700FC5FC5 /* UIProgressView+DarkModeKit.m */,
+				77E71C21298B580900FC5FC5 /* UIActivityIndicatorView+DarkModeKit.h */,
+				77E71C22298B580900FC5FC5 /* UIActivityIndicatorView+DarkModeKit.m */,
+				77E71C27298B589E00FC5FC5 /* UITabBar+DarkModeKit.h */,
+				77E71C28298B589E00FC5FC5 /* UITabBar+DarkModeKit.m */,
+				77E71C42298B696D00FC5FC5 /* UITabBarItem+DarkModeKit.h */,
+				77E71C43298B696D00FC5FC5 /* UITabBarItem+DarkModeKit.m */,
+				77E71C2A298B58B100FC5FC5 /* UIPageControl+DarkModeKit.h */,
+				77E71C2B298B58B100FC5FC5 /* UIPageControl+DarkModeKit.m */,
+				77E71C2D298B58BE00FC5FC5 /* UIButton+DarkModeKit.h */,
+				77E71C2E298B58BE00FC5FC5 /* UIButton+DarkModeKit.m */,
+				77E71C30298B58D000FC5FC5 /* UITextView+DarkModeKit.h */,
+				77E71C31298B58D000FC5FC5 /* UITextView+DarkModeKit.m */,
+				77E71C33298B58E500FC5FC5 /* UITextField+DarkModeKit.h */,
+				77E71C34298B58E500FC5FC5 /* UITextField+DarkModeKit.m */,
+				77E71C36298B58F300FC5FC5 /* UIToolbar+DarkModeKit.h */,
+				77E71C37298B58F300FC5FC5 /* UIToolbar+DarkModeKit.m */,
+				77E71C39298B590400FC5FC5 /* UINavigationBar+DarkModeKit.h */,
+				77E71C3A298B590400FC5FC5 /* UINavigationBar+DarkModeKit.m */,
+				77E71C3C298B591200FC5FC5 /* UIScrollView+DarkModeKit.h */,
+				77E71C3D298B591200FC5FC5 /* UIScrollView+DarkModeKit.m */,
+				77E71C3F298B592100FC5FC5 /* UITableView+DarkModeKit.h */,
+				77E71C40298B592100FC5FC5 /* UITableView+DarkModeKit.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77E71BDA298A8AB300FC5FC5 /* DarkModeCore */ = {
+			isa = PBXGroup;
+			children = (
+				77E71C15298A9D9F00FC5FC5 /* NSObject+DMSwizzling.h */,
+				77E71C16298A9D9F00FC5FC5 /* NSObject+DMSwizzling.m */,
+				77E71BDB298A8AB300FC5FC5 /* DMDynamicColor.h */,
+				77E71BE9298A8AB300FC5FC5 /* DMDynamicColor.m */,
+				77E71BE8298A8AB300FC5FC5 /* DMDynamicImage.h */,
+				77E71BDC298A8AB300FC5FC5 /* DMDynamicImage.m */,
+				77E71BDD298A8AB300FC5FC5 /* FluentDarkModeKit.h */,
+				77E71BEA298A8AB300FC5FC5 /* UIView+DarkModeKit.h */,
+				77E71BDE298A8AB300FC5FC5 /* UIView+DarkModeKit.m */,
+				77E71BEF298A8AB300FC5FC5 /* DMTraitCollection.h */,
+				77E71BDF298A8AB300FC5FC5 /* DMTraitCollection.m */,
+				77E71BE0298A8AB300FC5FC5 /* DMEnvironmentConfiguration.h */,
+				77E71BF0298A8AB300FC5FC5 /* DMEnvironmentConfiguration.m */,
+				77E71BE1298A8AB300FC5FC5 /* UIImage+DarkModeKit.h */,
+				77E71BEE298A8AB300FC5FC5 /* UIImage+DarkModeKit.m */,
+				77E71BE2298A8AB300FC5FC5 /* include */,
+				77E71BE4298A8AB300FC5FC5 /* UIColor+DarkModeKit.h */,
+				77E71BED298A8AB300FC5FC5 /* UIColor+DarkModeKit.m */,
+				77E71BEC298A8AB300FC5FC5 /* UIView+DarkModeKitSwizzling.h */,
+				77E71BE5298A8AB300FC5FC5 /* UIView+DarkModeKitSwizzling.m */,
+				77E71BF2298A8AB300FC5FC5 /* UIImage+DarkModeKitSwizzling.h */,
+				77E71BE6298A8AB300FC5FC5 /* UIImage+DarkModeKitSwizzling.m */,
+				77E71BF1298A8AB300FC5FC5 /* UIViewController+DarkModeKit.h */,
+				77E71BE7298A8AB300FC5FC5 /* UIViewController+DarkModeKit.m */,
+				77E71BEB298A8AB300FC5FC5 /* DMNamespace.h */,
+			);
+			path = DarkModeCore;
+			sourceTree = "<group>";
+		};
+		77E71BE2298A8AB300FC5FC5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				77E71BE3298A8AB300FC5FC5 /* DarkModeCore.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E71BAA298A8A5F00FC5FC5 /* FluentDarkModeKitOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E71BC4298A8A6000FC5FC5 /* Build configuration list for PBXNativeTarget "FluentDarkModeKitOC" */;
+			buildPhases = (
+				77E71BA7298A8A5F00FC5FC5 /* Sources */,
+				77E71BA8298A8A5F00FC5FC5 /* Frameworks */,
+				77E71BA9298A8A5F00FC5FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluentDarkModeKitOC;
+			productName = FluentDarkModeKitOC;
+			productReference = 77E71BAB298A8A5F00FC5FC5 /* FluentDarkModeKitOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E71BA3298A8A5F00FC5FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					77E71BAA298A8A5F00FC5FC5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 77E71BA6298A8A5F00FC5FC5 /* Build configuration list for PBXProject "FluentDarkModeKitOC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77E71BA2298A8A5F00FC5FC5;
+			productRefGroup = 77E71BAC298A8A5F00FC5FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E71BAA298A8A5F00FC5FC5 /* FluentDarkModeKitOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E71BA9298A8A5F00FC5FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E71BBE298A8A6000FC5FC5 /* LaunchScreen.storyboard in Resources */,
+				77E71BBB298A8A6000FC5FC5 /* Assets.xcassets in Resources */,
+				77E71BB9298A8A5F00FC5FC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E71BA7298A8A5F00FC5FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E71C09298A8AB300FC5FC5 /* UIViewController+DarkModeKit.m in Sources */,
+				77E71C0B298A8AB300FC5FC5 /* UIColor+DarkModeKit.m in Sources */,
+				77E71C2C298B58B100FC5FC5 /* UIPageControl+DarkModeKit.m in Sources */,
+				77E71C41298B592100FC5FC5 /* UITableView+DarkModeKit.m in Sources */,
+				77E71C32298B58D000FC5FC5 /* UITextView+DarkModeKit.m in Sources */,
+				77E71C0C298A8AB300FC5FC5 /* UIImage+DarkModeKit.m in Sources */,
+				77E71C10298A8B1D00FC5FC5 /* DarkModeManager.m in Sources */,
+				77E71C1A298AA2BA00FC5FC5 /* UILabel+DarkModeKit.m in Sources */,
+				77E71C44298B696D00FC5FC5 /* UITabBarItem+DarkModeKit.m in Sources */,
+				77E71C3B298B590400FC5FC5 /* UINavigationBar+DarkModeKit.m in Sources */,
+				77E71C07298A8AB300FC5FC5 /* UIView+DarkModeKitSwizzling.m in Sources */,
+				77E71C1D298B556400FC5FC5 /* UISlider+DarkModeKit.m in Sources */,
+				77E71C2F298B58BE00FC5FC5 /* UIButton+DarkModeKit.m in Sources */,
+				77E71BB6298A8A5F00FC5FC5 /* ViewController.m in Sources */,
+				77E71C29298B589E00FC5FC5 /* UITabBar+DarkModeKit.m in Sources */,
+				77E71BB0298A8A5F00FC5FC5 /* AppDelegate.m in Sources */,
+				77E71C35298B58E500FC5FC5 /* UITextField+DarkModeKit.m in Sources */,
+				77E71C05298A8AB300FC5FC5 /* UIView+DarkModeKit.m in Sources */,
+				77E71C0A298A8AB300FC5FC5 /* DMDynamicColor.m in Sources */,
+				77E71C3E298B591200FC5FC5 /* UIScrollView+DarkModeKit.m in Sources */,
+				77E71BC1298A8A6000FC5FC5 /* main.m in Sources */,
+				77E71C04298A8AB300FC5FC5 /* DMDynamicImage.m in Sources */,
+				77E71C38298B58F300FC5FC5 /* UIToolbar+DarkModeKit.m in Sources */,
+				77E71C06298A8AB300FC5FC5 /* DMTraitCollection.m in Sources */,
+				77E71C17298A9D9F00FC5FC5 /* NSObject+DMSwizzling.m in Sources */,
+				77E71BB3298A8A5F00FC5FC5 /* SceneDelegate.m in Sources */,
+				77E71C0D298A8AB300FC5FC5 /* DMEnvironmentConfiguration.m in Sources */,
+				77E71C08298A8AB300FC5FC5 /* UIImage+DarkModeKitSwizzling.m in Sources */,
+				77E71C23298B580900FC5FC5 /* UIActivityIndicatorView+DarkModeKit.m in Sources */,
+				77E71C13298A938800FC5FC5 /* UIImageView+DarkModeKit.m in Sources */,
+				77E71C20298B577700FC5FC5 /* UIProgressView+DarkModeKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77E71BB7298A8A5F00FC5FC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E71BB8298A8A5F00FC5FC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77E71BBC298A8A6000FC5FC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E71BBD298A8A6000FC5FC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77E71BC2298A8A6000FC5FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77E71BC3298A8A6000FC5FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77E71BC5298A8A6000FC5FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7EZ23W2MEV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FluentDarkModeKitOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whoyoung.FluentDarkModeKitOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77E71BC6298A8A6000FC5FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7EZ23W2MEV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FluentDarkModeKitOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whoyoung.FluentDarkModeKitOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E71BA6298A8A5F00FC5FC5 /* Build configuration list for PBXProject "FluentDarkModeKitOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E71BC2298A8A6000FC5FC5 /* Debug */,
+				77E71BC3298A8A6000FC5FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E71BC4298A8A6000FC5FC5 /* Build configuration list for PBXNativeTarget "FluentDarkModeKitOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E71BC5298A8A6000FC5FC5 /* Debug */,
+				77E71BC6298A8A6000FC5FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77E71BA3298A8A5F00FC5FC5 /* Project object */;
+}
