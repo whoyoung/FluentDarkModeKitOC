@@ -57,10 +57,10 @@
     if (@available(iOS 13.0, *)) {
         return;
     }
-    [UIImageView exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(willMoveToWindow:) swizzledSelector:@selector(dm_initWithImage:)];
+    [UIImageView exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(willMoveToWindow:) swizzledSelector:@selector(dm_willMoveToWindow:)];
 }
 
-- (void)dm_willMoveToWindow:(UIWindow *)newWindow {
+- (void)dm_willMoveToWindow:(nullable UIWindow *)newWindow {
     [self dm_willMoveToWindow:newWindow];
     if (newWindow) {
         [self dm_updateDynamicColors];
