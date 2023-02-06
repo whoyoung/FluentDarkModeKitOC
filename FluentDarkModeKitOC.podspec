@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.frameworks       = 'UIKit', 'Foundation'
 
-  s.source_files     = 'FluentDarkModeKitOC/DarkModeCore/*.{h,m}', 'FluentDarkModeKitOC/FluentDarkModeKit/**/*.{h,m}'
+  s.source_files     = 'FluentDarkModeKitOC/DarkModeCore/**/*.{h,m}', 'FluentDarkModeKitOC/FluentDarkModeKit/**/*.{h,m}'
 end
