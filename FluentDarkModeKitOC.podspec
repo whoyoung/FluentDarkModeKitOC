@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "FluentDarkModeKitOC"
-  s.version          = "1.0.4"
+  s.version          = "1.0.5"
   s.summary          = "Rewrite FluentDarkModeKit for a library for backporting Dark Mode in iOS. Use objective-c replace swift."
 
   s.description      = <<-DESC
