@@ -3,14 +3,14 @@
 //  Licensed under the MIT License.
 //
 
-#import <FluentDarkModeKit/DMDynamicColor.h>
-#import <FluentDarkModeKit/DMDynamicImage.h>
-#import <FluentDarkModeKit/DMEnvironmentConfiguration.h>
-#import <FluentDarkModeKit/DMTraitCollection.h>
-#import <FluentDarkModeKit/UIColor+DarkModeKit.h>
-#import <FluentDarkModeKit/UIImage+DarkModeKit.h>
-#import <FluentDarkModeKit/UIViewController+DarkModeKit.h>
-#import <FluentDarkModeKit/UIView+DarkModeKit.h>
+#import "DMDynamicColor.h"
+#import "DMDynamicImage.h"
+#import "DMEnvironmentConfiguration.h"
+#import "DMTraitCollection.h"
+#import "UIColor+DarkModeKit.h"
+#import "UIImage+DarkModeKit.h"
+#import "UIViewController+DarkModeKit.h"
+#import "UIView+DarkModeKit.h"
 
 //! Project version number for DarkModeKit.
 FOUNDATION_EXPORT double DarkModeKitVersionNumber;
