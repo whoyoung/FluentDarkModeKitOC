@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)messageForSwizzlingFailedWithClass:(Class)cls selector:(SEL)Selector;
 
++ (void)registerWithApplication:(UIApplication *)application syncImmediately:(BOOL)syncImmediately animated:(BOOL)animated;
+
 @end
 
 NS_ASSUME_NONNULL_END
