@@ -41,7 +41,7 @@ static void *dynamicSelectedImageKey = &dynamicSelectedImageKey;
 }
 
 + (void)swizzleSetImageOnce {
-    [UITabBarItem exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(setImage:) swizzledSelector:@selector(dm_setImage:)];
+    [UITabBarItem dm_exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(setImage:) swizzledSelector:@selector(dm_setImage:)];
 }
 
 - (void)dm_setImage:(UIImage *)image {
@@ -54,7 +54,7 @@ static void *dynamicSelectedImageKey = &dynamicSelectedImageKey;
 }
 
 + (void)swizzleSetSelectedImageOnce {
-    [UITabBarItem exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(setSelectedImage:) swizzledSelector:@selector(dm_setSelectedImage:)];
+    [UITabBarItem dm_exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(setSelectedImage:) swizzledSelector:@selector(dm_setSelectedImage:)];
 }
 
 - (void)dm_setSelectedImage:(UIImage *)selectedImage {

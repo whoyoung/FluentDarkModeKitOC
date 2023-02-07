@@ -57,7 +57,7 @@
     if (@available(iOS 13.0, *)) {
         return;
     }
-    [UIImageView exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(willMoveToWindow:) swizzledSelector:@selector(dm_willMoveToWindow:)];
+    [UIImageView dm_exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(willMoveToWindow:) swizzledSelector:@selector(dm_willMoveToWindow:)];
 }
 
 - (void)dm_willMoveToWindow:(nullable UIWindow *)newWindow {

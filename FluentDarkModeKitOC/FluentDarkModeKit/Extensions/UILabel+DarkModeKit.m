@@ -14,7 +14,7 @@ static void *currentThemeKey = &currentThemeKey;
 @implementation UILabel (DarkModeKit)
 
 + (void)swizzleDidMoveToWindowOnce {
-    [UILabel exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(didMoveToWindow) swizzledSelector:@selector(dm_didMoveToWindow)];
+    [UILabel dm_exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(didMoveToWindow) swizzledSelector:@selector(dm_didMoveToWindow)];
 }
 
 - (void)dm_didMoveToWindow {

@@ -29,7 +29,7 @@
 }
 
 + (void)swizzleTextFieldWillMoveToWindowOnce {
-    [UITextField exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(willMoveToWindow:) swizzledSelector:@selector(dm_willMoveToWindow:)];
+    [UITextField dm_exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(willMoveToWindow:) swizzledSelector:@selector(dm_willMoveToWindow:)];
 }
 
 - (void)dm_willMoveToWindow:(UIWindow *)newWindow {

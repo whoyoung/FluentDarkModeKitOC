@@ -23,7 +23,7 @@ static void *dynamicImageKey = &dynamicImageKey;
 }
 
 + (void)swizzleSetImageOnce {
-    [UIImageView exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(setImage:) swizzledSelector:@selector(dm_setImage:)];
+    [UIImageView dm_exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(setImage:) swizzledSelector:@selector(dm_setImage:)];
 }
 
 - (void)dm_setImage:(UIImage *)image {
@@ -36,7 +36,7 @@ static void *dynamicImageKey = &dynamicImageKey;
 }
 
 + (void)swizzleInitImageOnce {
-    [UIImageView exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(initWithImage:) swizzledSelector:@selector(dm_initWithImage:)];
+    [UIImageView dm_exchangeInstanceMethodWithSelfClass:[self class] originalSelector:@selector(initWithImage:) swizzledSelector:@selector(dm_initWithImage:)];
 }
 
 - (UIImageView *)dm_initWithImage:(UIImage *)image {

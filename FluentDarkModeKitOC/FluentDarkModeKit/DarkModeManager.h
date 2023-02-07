@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)registerWithApplication:(UIApplication *)application syncImmediately:(BOOL)syncImmediately animated:(BOOL)animated;
 
++ (void)registerWithViewController:(UIViewController *)viewController syncImmediately:(BOOL)syncImmediately animated:(BOOL)animated;
+
 @end
 
 NS_ASSUME_NONNULL_END

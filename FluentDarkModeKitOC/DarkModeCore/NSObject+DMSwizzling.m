@@ -10,7 +10,7 @@
 #import "NSObject+DMSwizzling.h"
 
 @implementation NSObject (DMSwizzling)
-+ (void)exchangeInstanceMethodWithSelfClass:(Class)selfClass
++ (void)dm_exchangeInstanceMethodWithSelfClass:(Class)selfClass
                            originalSelector:(SEL)originalSelector
                            swizzledSelector:(SEL)swizzledSelector {
     
